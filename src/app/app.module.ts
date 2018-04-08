@@ -4,7 +4,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 import { AppComponent } from './app.component';
-import { UsersListComponent } from './users-list/users-list.component';
 
 import { TableModule } from 'primeng/table';
 import { RouterModule } from '@angular/router';
@@ -14,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { InputTextModule, DataTableModule } from 'primeng/primeng';
 import { FormsModule } from '@angular/forms';
+import { UsersListComponent } from './users-list/users-list.component';
 
 @NgModule({
   declarations: [
