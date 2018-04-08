@@ -12,7 +12,7 @@ import { UserService } from './services/user.service';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 
-import { InputTextModule, BreadcrumbModule, DataTableModule } from 'primeng/primeng';
+import { InputTextModule, DataTableModule } from 'primeng/primeng';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -29,7 +29,6 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     HttpClientModule,
     InputTextModule,
-    BreadcrumbModule,
     DataTableModule
   ],
   providers: [
