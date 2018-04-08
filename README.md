@@ -1,6 +1,14 @@
-# MyFraktonApp
+  # MyFraktonApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
+
+## Install
+
+1. Clone the Repository to your machine
+2. Open the folder with desired IDE
+3. Run 'npm install' in the cmd
+4. Run 'npm install @angular/cli' in the cmd
+5. Run 'npm install primeng' in the cmd
 
 ## Development server
 
@@ -25,3 +33,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
