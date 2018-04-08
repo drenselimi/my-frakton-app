@@ -1,18 +1,40 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 import { AppComponent } from './app.component';
+import { UsersListComponent } from './users-list/users-list.component';
 
+import { TableModule } from 'primeng/table';
+import { RouterModule } from '@angular/router';
+import { UserService } from './services/user.service';
+import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
+
+import { InputTextModule, BreadcrumbModule, DataTableModule } from 'primeng/primeng';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UsersListComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    TableModule,
+    FormsModule,
+    RouterModule,
+    AppRoutingModule,
+    HttpClientModule,
+    InputTextModule,
+    BreadcrumbModule,
+    DataTableModule
   ],
-  providers: [],
+  providers: [
+    UserService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
